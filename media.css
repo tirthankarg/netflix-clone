@@ -1,0 +1,163 @@
+@media screen and (max-width:1200px){
+  .main nav{
+    max-width: 100%;
+  }
+  .img-des-part{
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .idp{
+    flex-wrap: wrap-reverse;
+  }
+  .nav-part{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+   
+   
+  }
+}
+@media screen and (max-width:950px){
+  .input-bottom input{
+    width: 55vw;
+  }
+  .main{
+    height: 60rem;
+  }
+}
+@media screen and (max-width:650px){
+  .main nav img{
+    width: 8rem;
+  }
+  .btn{
+   padding: 2px 8px;
+   font-size: 1.1rem;
+  }
+  .btn-lan{
+    padding: 2px 4px;
+  }
+  .hero-input{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .input-bottom{
+    flex-wrap: wrap;
+  }
+  .img-part{
+    width: 30rem;
+  }
+  .video-part1{
+    width: 22rem;
+    left: 4rem;
+    top: 4.5rem;
+  }
+  .video-part2 {
+    width: 19rem;
+    left: 5rem;
+    top: 2rem;
+  }
+  .heading-primary{
+    font-size: 3.5rem;
+    
+  }
+  .heading-secondary{
+    font-size: 2.6rem;
+   
+  }
+  .heading-tertiary{
+    font-size: 1.6rem;
+    
+  }
+  .hero-des{
+    padding-top:16rem ;
+  }
+  .main{
+    height: 55rem;
+  }
+  /* .faqh1{
+    gap: 1rem;
+  } */
+  .description{
+    font-size: 1.6rem;
+  }
+  .hero-des p{
+    
+    font-size: 2rem;
+  }
+  .btn-bg{
+    font-size: 1.4rem;
+    padding: 9px 5px;
+  }
+  .img-des-part{
+    height: 40rem;
+  }
+}
+@media screen and (max-width:450px){
+  .main nav img{
+    width: 6rem;
+  }
+  .btn{
+    padding: 2px 4px;
+    font-size: 1rem;
+   }
+   .btn-lan{
+     padding: 2px;
+   }
+   .btn-bg{
+    font-size: 1.4rem;
+    padding: 9px 5px;
+   }
+   .hero-des{
+    padding-top: 10rem ;
+  }
+  .main{
+    height: 55rem;
+  }
+  .img-part{
+    width: 30rem;
+  }
+  .video-part1{
+    width: 22rem;
+    left: 4rem;
+    top: 4.5rem;
+  }
+  .video-part2 {
+    width: 19rem;
+    left: 5rem;
+    top: 2rem;
+  }
+  .heading-primary{
+    font-size: 3rem;
+    
+  }
+  .heading-secondary{
+    font-size: 2rem;
+   
+  }
+  .heading-tertiary{
+    font-size: 1.2rem;
+    
+  }
+  /* .faqh1{
+    gap: 1rem;
+  } */
+  .description{
+    font-size: 1rem;
+  }
+  .hero-des p{
+    
+    font-size: 1.2rem;
+  }
+  .hero-des{
+    gap: 1rem;
+  }
+  /* .hero-input input{
+    width: 20rem;
+    height: 3rem;
+  } */
+
+}

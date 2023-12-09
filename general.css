@@ -1,0 +1,116 @@
+.btn{
+  background-color: red;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 0.2rem 1.2rem;
+  /* font-weight: bold; */
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(218, 3, 3);
+  transition: all .5s ease-in-out;
+}
+.btn-lan{
+  background-color: black;
+  border: 2px solid rgb(69, 69, 69);
+}
+.btn-lan:hover{
+background-color: black;
+}
+.btn-bg{
+  font-size: 1.8rem;
+  padding: 1rem 1rem;
+  /* font-weight: bold; */
+  display: flex;
+  align-items: center;
+  /* gap: 1px; */
+  
+}
+.heading-primary{
+  font-size: 4.4rem;
+  font-weight: 600;
+}
+.heading-secondary{
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.heading-tertiary{
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+.description{
+  font-size: 2rem;
+}
+
+.container{
+  background-color: black; 
+  border-bottom:1rem solid rgb(47, 47, 47) ;
+  width: 100%;
+}
+.img-des-part{
+  max-width: 60vw;
+  display: flex;
+  color: white;
+  margin: 0 auto;
+  align-items: center;
+  gap: 4rem;
+  height: 55rem;
+}
+
+.des-part{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.img-part{
+  width: 45rem;
+  position: relative;
+  z-index: 10;
+}
+.video-img-part{
+  position: relative;
+}
+.video-part{
+position: absolute;
+right: 0;
+}
+
+.faq-des{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: 55vw;
+  
+}
+.faqh{
+  padding: 3rem 0 2rem 0;
+}
+
+.faqh2{
+  padding: 1.5rem 2rem;
+  display: none;
+
+  background-color: rgb(49, 49, 49);
+}
+
+.faq-icon-flex{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: rgb(49, 49, 49);
+  
+}
+.faq-icon-flex:hover{
+  transition: all .5s;
+  background-color: rgb(75, 75, 75);
+}
+
+.icon{
+  height: 2rem;
+  width: 2rem;
+}
